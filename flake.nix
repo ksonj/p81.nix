@@ -1,6 +1,8 @@
 {
   description = "Perimeter81 on Nix";
-  inputs = {nixpkgs = {url = "nixpkgs/nixos-unstable";};};
+  inputs = {
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+  };
   outputs = {
     self,
     nixpkgs,
